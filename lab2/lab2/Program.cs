@@ -36,18 +36,15 @@
 //            (-0.5, 1.2),
 //            (0.72, 3.12)
 //      };
-
 //foreach (var point in points)
 //{
 //    bool isInArea = IsPointInArea(point.x, point.y);
 //    Console.WriteLine($"Точка ({point.x}, {point.y}) " + $"{(isInArea ? "лежит" : "не лежит")} в области.");
 //}
-
 //    static bool IsPointInArea(double x, double y)
 //{
-//    // Условие: точка внутри области, если
-//    // y <= 2 - x^2 и y >= 0 (ось абсцисс)
 //    return y >= 0 && y <= 2 - x * x;
 //}
+
 
 
