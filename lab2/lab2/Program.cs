@@ -30,21 +30,40 @@
 //}
 
 //оператор выбора Базовый уровень Вариант 1
-//var points = new (double x, double y)[]
-//      {
-//            (3.5, 7.2),
-//            (-0.5, 1.2),
-//            (0.72, 3.12)
-//      };
-//foreach (var point in points)
-//{
-//    bool isInArea = IsPointInArea(point.x, point.y);
-//    Console.WriteLine($"Точка ({point.x}, {point.y}) " + $"{(isInArea ? "лежит" : "не лежит")} в области.");
-//}
-//    static bool IsPointInArea(double x, double y)
-//{
-//    return y >= 0 && y <= 2 - x * x;
-//}
+// for (int i = 1; i <= 3; i++)
+// {
+//     double x, y;
+//     string result;
+//     switch (i)
+//     {
+//         case 1:
+//             x = 3.5;
+//             y = 7.2;
+//             break;
+//         case 2:
+//             x = -0.5;
+//             y = 1.2;
+//             break;
+//         case 3:
+//             x = 0.72;
+//             y = -3.12;
+//             break;
+//         default:
+//             x = 0;
+//             y = 0;
+//             break;
+//     }
+//     // Проверка принадлежности точки области
+//     if (y >= 0 && y <= 2 * x * x)
+//     {
+//         result = $"Точка A({x}, {y}) лежит в области, ограниченной параболой y=2x^2 и осью абсцисс.";
+//     }
+//     else
+//     {
+//         result = $"Точка A({x}, {y}) НЕ лежит в области, ограниченной параболой y=2x^2 и осью абсцисс.";
+//     }
+//     Console.WriteLine(result);
+// }
 
 
 
